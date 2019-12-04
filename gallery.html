@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gallery</title>
+        <style>
+          .header, .section, .footer, .aside, .nav, .article, .figure, .figcaption {
+            display: block;}    
+         body,html{
+             max-width:90%;
+             margin:0 auto 0 auto;
+             padding: 0;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			 line-height:1.6em;
+             height:100%;
+         }.wrapper{            
+             border:0px solid #b1a9a9;            
+         }.nav{
+             padding:1.0em 30px;
+            text-align: right;
+            background:#ffffff;  
+         }ul li{
+             list-style: none;
+             display:inline-block;
+             margin-right: 30px;                       
+         }ul{
+             word-spacing:20px;
+         }ul li a{
+             text-decoration: none; 
+             color:#001b57;
+             font-size:16px;letter-spacing:2px;
+         }ul li a:hover{
+             color:black;
+         }.active a{
+            border-bottom:2px solid #000;    
+            padding:7px;            
+         }.logo{
+             float :left;
+             margin-left:40px;
+            margin-top: 2px;
+            cursor: pointer;
+         }.logo h3{             
+             padding:10px;
+             color:#001b57;
+             border-top: 2px solid #000;   border-bottom: 2px solid #000;       
+         }.top{
+             height: 70px;
+            margin-bottom:1px; 
+            background: rgb(255, 255, 255); border-bottom:1px solid #001b57;
+         }.gallery{
+             margin:0 auto;
+             padding:5px 5%;
+         }#headings{
+             margin-left:5px;
+text-decoration:overline;			 
+             color:rgb(6, 124, 108); 
+         }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="header">
+            <div class="top"><center><!--img src="camera.svg" height="50px"--></center></div>
+            <div class="logo"><h3>SNAP-SHOT</h3></div>
+            <div class="nav">
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+                <li ><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+		<hr />
+    </div>
+        <div class="gallery">
+            <h2>Our Gallery</h2>
+           <p></p> <p>At snapshot we capture the most quality photos in the market</p>
+		    <p>Here is some of our work</p>
+           <h2><span id="headings">Nature Photography</span></h2><br/>
+		   <hr />
+           <center><table cellspacing="0">
+                <tr>
+                    <td><img src="image1.jfif" width="400" height="400"></td>
+                    <td><img src="image2.jfif" width="400" height="400"></td>
+                    <td><img src="image3.jfif" width="400" height="400"></td>
+                    <td><img src="image4.jfif" width="400" height="400"></td>
+                </tr>
+        
+                <tr>
+                    <td><img src="image5.jfif" width="400" height="400"></td>
+                    <td><img src="image7.jfif" width="400" height="400"></td>
+                    <td><img src="image6.jfif" width="400" height="400"></td>
+                    <td><img src="image8.jfif" width="400" height="400"></td>
+                </tr>
+        
+                
+            </table></center>	
+        </div>
+    </div>    
+    </body>
+</html>

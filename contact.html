@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact us</title>
+        <style>
+        .header, .section, .footer, .aside, .nav, .article, .figure, .figcaption {
+            display: block;}    
+         body,html{
+             max-width:90%;
+             margin:0 auto 0 auto;
+             padding: 0;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			 line-height:1.6em;
+             height:100%;
+         }.wrapper{            
+             border:0px solid #b1a9a9;            
+         }.nav{
+             padding:1.0em 30px;
+            text-align: right;
+            background:#ffffff;  
+         }ul li{
+             list-style: none;
+             display:inline-block;
+             margin-right: 30px;                       
+         }ul{
+             word-spacing:20px;
+         }ul li a{
+             text-decoration: none; 
+             color:#001b57;
+             font-size:16px;letter-spacing:2px;
+         }ul li a:hover{
+             color:black;
+         }.active a{
+            border-bottom:2px solid #000;    
+            padding:7px;            
+         }.logo{
+             float :left;
+             margin-left:40px;
+            margin-top: 2px;
+            cursor: pointer;
+         }.logo h3{             
+             padding:10px;
+             color:#001b57;
+             border-top: 2px solid #000;   border-bottom: 2px solid #000;       
+         }.top{
+             height: 70px;
+            margin-bottom:1px; 
+            background: rgb(255, 255, 255); border-bottom:1px solid #001b57;
+         }.section{
+            float: left;
+            width: 80%;
+            border-right: 1px solid #968c8c; 
+			margin-top:5px;
+			background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/pic1.jpg');
+			background-position:center;
+			background-size: cover;
+			}
+            .aside {
+            width: 200px;
+            float: left;
+            padding: 0px 0px 0px 20px;}
+			.article{			
+			margin-top:40px;
+			width:90%;
+			padding:5px 20px;
+			
+			}    
+            fieldset{
+                width:500px;
+            }legend h3{
+                font-size:25px;  
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;              
+            }input{
+                margin-bottom:20px;
+                width:250px;
+                height:30px;               
+            }textarea{
+                margin-bottom:20px;
+                width:250px;                
+            }.comments{			
+			float:left;
+			margin-left:40px;
+			width:40%;			
+			}
+            </style>
+         </head>
+<body>
+<div class="wrapper">   
+        <div class="header">
+            <div class="top"><center><!--img src="camera.svg" height="50px"--></center></div>
+            <div class="logo"><h3>SNAP-SHOT</h3></div>
+            <div class="nav">
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li ><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+			<hr />
+        </div>
+
+        <div class="section">
+		
+                <h1>Contact Us</h1>
+                <P>Get In touch with us. Your Feedback is highly valued. </P>
+				<hr />
+            <div class="article">
+				<div class="comments">
+                <h3>comments</h3>        
+                <input type="text" name="name" value="Name" required="required"><br /> 
+                                
+                <input type="text" name="email"value="E-mail" required="required"> <br />                  
+                               
+                <textarea rows="5" cols="20" name="description">Comment
+                </textarea><br /> 
+            
+                <input type="submit" value="Send">
+				</div>	
+							
+            </div>  
+			
+        </div>
+
+        <div class="aside">
+                
+                <section class="contact-details">
+                    <h2>Visit At Kenafric Bldg</h2>
+                    <p>Nairobi, Kenya<br />
+                    27 Tom Mboya Street<br />
+                    
+                </section>
+        </div>
+      
+        </div>
+    </body>

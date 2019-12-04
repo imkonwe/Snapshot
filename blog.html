@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Page</title>
+        <style>
+          .header, .section, .footer, .aside, .nav, .article, .figure, .figcaption {
+            display: block;}    
+         body,html{
+             max-width:90%;
+             margin:0 auto 0 auto;
+             padding: 0;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			 line-height:1.6em;
+             height:100%;
+         }.wrapper{            
+             border:0px solid #b1a9a9;            
+         }.nav{
+             padding:1.0em 30px;
+            text-align: right;
+            background:#ffffff;  
+         }ul li{
+             list-style: none;
+             display:inline-block;
+             margin-right: 30px;                       
+         }ul{
+             word-spacing:20px;
+         }ul li a{
+             text-decoration: none; 
+             color:#001b57;
+             font-size:16px;letter-spacing:2px;
+         }ul li a:hover{
+             color:black;
+         }.active a{
+            border-bottom:2px solid #000;    
+            padding:7px;            
+         }.logo{
+             float :left;
+             margin-left:40px;
+            margin-top: 2px;
+            cursor: pointer;
+         }.logo h3{             
+             padding:10px;
+             color:#001b57;
+             border-top: 2px solid #000;   border-bottom: 2px solid #000;       
+         }.top{
+             height: 70px;
+            margin-bottom:1px; 
+            background: rgb(255, 255, 255); border-bottom:1px solid #001b57;
+         }.section{
+            float: left;
+            width: 80%;
+            border-right: 1px solid #968c8c; }
+        .hgroup {
+            margin-top:20px;}                    
+         figure {
+            float: left;
+            width: 290px;
+            height: 220px;
+            padding: 5px;
+            margin: 10px;
+            border: 1px solid #eeeeee;}
+        figcaption {
+            font-size: 90%;
+            text-align: left;}
+        .article {
+            clear: both;
+            overflow: auto;
+            width: 100%;}  
+        .aside {
+            width: 200px;
+            float: left;
+            padding: 0px 0px 0px 20px;}
+        .aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;}
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;}  
+        a {
+            color: #de6581;
+            text-decoration: none;}
+        h1, h2, h3 {
+            font-weight: normal;}
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;}
+        h3 {            
+            color: #de6581;}
+        .aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #de6581;}  
+        .footer{
+            clear:both;
+            color:#fff;
+            padding:1.0em 30px;
+            background:rgb(141, 177, 174); 
+            text-align:center;            
+        }        
+        </style>
+    </head>
+    <body>
+    <div class="wrapper">   
+        <div class="header">
+            <div class="top"><center><!--img src="camera.svg" height="50px"--></center></div>
+            <div class="logo"><h3>SNAP-SHOT</h3></div>
+            <div class="nav">
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+			<hr />
+        </div>
+
+        <div class="section">
+            <div class="article">
+                <figure>
+                    <img src="" alt="">
+                        <figcaption>Blog Post</figcaption>
+                </figure>  
+                <div class="hgroup">
+                        <h2>Tips For Taking Good Photographs</h2>
+                        <h3>Five easy steps</h3>
+                </div> 
+                <p>A five week introductory course to effective photo-shoot skills for the current market 
+                 </p>
+            </div> 
+            
+            <div class="article">
+                    <figure>
+                        <img src="" alt="">
+                            <figcaption>Blog Post</figcaption>
+                    </figure>  
+                    <div class="hgroup">
+                            <h2>How to Edit your Photos </h2>
+                            <h3>Learn how to Use Adobe Lightroom</h3>
+                    </div> 
+                 
+            </div> 
+
+
+       
+      
+
+        <div class="footer">
+            <p>&copy Copyright 2019</p>           
+        </div>
+    </div>     
+    </body>
+    </html>    
